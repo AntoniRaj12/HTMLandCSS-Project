@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Table</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        h1{
+            text-align: center;
+            margin-top: 3cm;
+            color: white;
+        }
+        h3{
+            text-align: center;
+            padding-top: 1cm;
+            font-size: 40px;
+        }
+        
+        .left{
+            width: 7cm;
+            height: 10cm;
+            background-image: url(./HTML/MEDIA/jkjkd.jpg);
+            background-size: cover;
+            border: 0px solid black;
+            display: inline-block;
+            margin-top: 2cm;
+            margin-left: 10cm;
+            margin-right: 5.9cm;
+            border-radius: 10px;
+            box-shadow:0 5px 20px black;
+        }
+        .right{
+            width: 7cm;
+            height: 10cm;
+            background-image: url(./HTML/MEDIA/kljskjksk.jpg);
+            background-size: cover;
+            border: 0px solid black;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow:0 5px 20px black;
+        }
+        .middle{
+            width: 8cm;
+            height: 11cm;
+            background-image: url(./HTML/MEDIA/ieoioiew.jpg);
+            background-size: cover;
+            border: 0px solid black;
+            position: absolute;
+            margin-top: -10.5cm;
+            margin-left: 16cm;
+            border-radius: 10px;
+            box-shadow:0 5px 20px black;
+        }
+        #lefttop{
+            height: 3.48cm;
+            background-color: white;
+            border-radius: 10px 0px;
+        }
+        #righttop{
+            height: 3.48cm;
+            background-color: white;
+            border-radius: 0px 10px;
+            
+        }
+        #middletop{
+            height: 3.99cm;
+            background-color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #lefttop p{
+            position: absolute;
+            text-align: center;
+            padding-top: -7cm;
+            padding-left: 2.5cm;
+            font-size: 20px;
+            color: gray;
+        }
+        #righttop p{
+            position: absolute;
+            text-align: center;
+            padding-top: -7cm;
+            padding-left: 2.5cm;
+            font-size: 20px;
+            color: gray;
+        }
+        #middletop p{
+            position: absolute;
+            text-align: center;
+            padding-top: -7cm;
+            padding-left: 3cm;
+            font-size: 20px;
+            color: gray;
+        }
+        h4{
+            font-size: 30px;
+            text-align: center;
+            padding-top: 0.5cm;
+            color: black;
+        }
+        .middle p{
+            text-align: center;
+        }
+        .left p{
+            text-align: left;
+        }
+        .right p{
+            text-align: right;
+        }
+        #button2{
+            margin-top: 0.1cm;
+            margin-left: 2.1cm;
+            height: 1cm;
+            width: 3cm;
+            border-radius: 25px;
+            color: rosybrown;
+            font-size: 20px;
+        }
+        #button1{
+            margin-top: 1cm;
+            margin-left: 2.5cm;
+            height: 1cm;
+            width: 3cm;
+            border-radius: 25px;
+            color: purple;
+            font-size: 20px;
+        }
+        #button3{
+            margin-top: 0.1cm;
+            margin-left: 2.1cm;
+            height: 1cm;
+            width: 3cm;
+            border-radius: 25px;
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body style="background-image: url(./HTML/MEDIA/pexels-jplenio-1103970.jpg);">
+    <h1>Creating Price Table</h1>
+    <div class="left">
+        <div id="lefttop">
+        <h3 style="color:rosybrown;">$26</h3>
+        <p>per month</p>
+        </div>
+        <h4>BASIC</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsam odio at odit, vitae rerum laboriosam dolorem totam tenetur voluptate cumque, blanditiis officia temporibus doloremque dolores debitis. Qui, placeat. Quidem?
+        </p>
+        <button type="submit" id="button2">Choose</button>
+    </div>
+    <div class="right">
+        <div id="righttop">
+        <h3 style="color:blue;">$35</h3>
+        <p>per month</p>
+        </div>
+        <h4>ULTIMATE</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsam odio at odit, vitae rerum laboriosam dolorem totam tenetur voluptate cumque, blanditiis officia temporibus doloremque dolores debitis. Qui, placeat. Quidem?
+        </p>
+        <button type="submit" id="button3">Choose</button>
+    </div>
+    <div class="middle">
+        <div id="middletop">
+            <h3 style="color:purple;">$30</h3>  
+            <p>per month</p>
+        </div>
+        <h4>PREMIUM</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsam odio at odit, vitae rerum laboriosam dolorem totam tenetur voluptate cumque, blanditiis officia temporibus doloremque dolores debitis. Qui, placeat. Quidem?
+        </p>
+        <button type="submit" id="button1">Choose</button>
+    </div>
+</body>
+</html>
